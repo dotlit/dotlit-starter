@@ -1,0 +1,294 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.led {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 0.6em;
+  margin-top: 0.4em;
+  background-color: #ccc;
+}
+.led-green {
+  background-color: #3c3;
+}
+.led-orange {
+  background-color: #ffa500;
+}
+.led-blue {
+  background-color: #9999f7;
+}
+.led-red {
+  background-color: #f00;
+}
+li > p:first-child {
+  margin: 0;
+}
+#header {
+  top: 0;
+  position: sticky;
+  background-color: #fff;
+  z-index: 99999;
+  border-bottom: 1px solid #efefef;
+}
+#header *[disabled] {
+  opacity: 0.5;
+  font-style: italic;
+  cursor: default;
+}
+#header menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  white-space: nowrap;
+}
+#header menu.right {
+  margin-left: auto;
+}
+#header menu.right > .MenuItems {
+  right: 0;
+  left: auto;
+}
+#header menu .MenuTitle {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  padding-right: 0.6em;
+}
+#header menu .MenuItems {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+#header menu .MenuItems .meta {
+  font-size: 0.6em;
+  font-style: normal;
+}
+#header menu:not(.horizontal) > .MenuItems > * {
+  padding-top: 0.4em;
+}
+#header menu:not(.horizontal) > .MenuItems > *:first-child {
+  padding-top: 0;
+}
+#header menu:not(.horizontal) > .MenuItems > menu {
+  display: flex;
+  flex-direction: column;
+}
+#header menu:not(.horizontal) > .MenuItems > menu > .MenuTitle:after {
+  padding: 0 0.4em;
+  content: '\203A';
+}
+#header menu:not(.horizontal) > .MenuItems > menu.open > .MenuTitle:after {
+  transform: rotate(90deg);
+}
+#header menu:not(.horizontal) > .MenuItems > menu > .MenuItems {
+  position: static;
+  padding-top: 0.4em;
+}
+#header menu:not(.horizontal) > .MenuItems > menu > .MenuItems > * {
+  padding-left: 0.4em;
+  border-left: 2px solid #9999f7;
+}
+#header menu.open:not(.horizontal) > .MenuItems {
+  position: absolute;
+  top: 1.6em;
+  background-color: #fff;
+  padding: 0.6em;
+  margin: 0 -0.6em;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+  min-width: 100%;
+  padding-top: 0;
+}
+#header menu.horizontal {
+  display: flex;
+  flex-direction: row;
+  padding: 0.6em;
+}
+#header menu.horizontal > li {
+  flex-direction: row;
+}
+section,
+cell,
+codecell {
+  display: block;
+}
+section {
+  border-width: 0 1px;
+  border-style: dashed;
+  border-color: transparent;
+  border-right-width: 0;
+  margin-left: 2px;
+}
+section section {
+  margin: 0 0 -3px;
+}
+section cell {
+  margin-left: -3px;
+}
+section.selected {
+  border-color: #9999f7;
+  border-right-color: transparent;
+}
+section.selected:before,
+section.selected:after {
+  display: block;
+  width: 4px;
+  border-bottom: 1px solid #9999f7;
+  content: ".";
+  color: transparent;
+  height: 0;
+}
+#backlinks {
+  color: #999;
+}
+a[wikilink="true"]:before,
+a[wikilink="true"]:after {
+  color: #808080;
+}
+a[wikilink="true"]:before {
+  content: '[';
+}
+a[wikilink="true"]:after {
+  content: ']';
+}
+cell {
+  padding: 0.6em;
+  margin: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 3px;
+}
+cell > *:first-child {
+  margin-top: 0;
+}
+cell.selected {
+  border-color: #9999f7;
+}
+cell.editing {
+  padding: 0;
+}
+cell:not(.code) code {
+  border: 1px solid rgba(0,0,0,0.071);
+  padding: 0 0.2em;
+  background-color: rgba(0,0,0,0.02);
+  border-radius: 2px;
+}
+codecell > .meta {
+  font-family: monospace;
+  display: block;
+}
+codecell > .meta .lang {
+  font-weight: bold;
+  margin-right: 0.4em;
+}
+codecell > .meta .repl {
+  font-style: italic;
+  color: #999;
+  margin-right: 0.4em;
+}
+codecell > .meta .filename {
+  color: #999;
+  margin-right: 0.4em;
+}
+codecell > .meta ul,
+codecell > .meta ol {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: column;
+}
+codecell > .meta ul li,
+codecell > .meta ol li {
+  padding: 0 0.2em;
+  margin: 0 0.2em;
+  border-radius: 2px;
+  background-color: #e5e5e5;
+}
+codecell > .meta .tag:before {
+  content: '#';
+}
+codecell > .meta .directive:before {
+  content: '!';
+}
+codecell pre {
+  margin: 0;
+  padding: 0.4em;
+  min-height: 1em;
+  background-color: #2f4f4f;
+  color: #fff;
+  white-space: pre-wrap;
+}
+codecell > output > pre {
+  background-color: #fff;
+  color: #000;
+}
+cell,
+codecell {
+  position: relative;
+}
+cell > menu,
+codecell > menu {
+  margin: 0;
+  padding: 0;
+  z-index: 99999;
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  right: 0;
+  bottom: 0.5em;
+  display: flex;
+  place-items: flex-end;
+  pointer-events: none;
+}
+cell > menu .menu__items,
+codecell > menu .menu__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  position: sticky;
+  bottom: 50%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-direction: row;
+  gap: 0.5em;
+  padding-right: 0.5em;
+}
+cell > menu .menu__items li,
+codecell > menu .menu__items li {
+  background-color: #9999f7;
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+  overflow: hidden;
+  margin: 0 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: all;
+  color: #fff;
+  line-height: 1;
+}
+codecell > iframe {
+  display: block;
+  width: 100%;
+}
+codecell > table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+codecell > table td {
+  padding: 0.4em;
+}
+#backlinks,
+.footnotes {
+  padding: 0 1em;
+}

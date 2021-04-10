@@ -1,0 +1,188 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "section",
+            "data": {
+                "name": "-welcome",
+                "hName": "section",
+                "hProperties": {
+                    "depth": 1
+                }
+            },
+            "depth": 1,
+            "children": [
+                {
+                    "type": "cell",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 39
+                        }
+                    },
+                    "data": {
+                        "hName": "cell",
+                        "hProperties": {
+                            "class": "cell"
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "heading",
+                            "depth": 1,
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "🌱 Welcome",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 3,
+                                            "offset": 2
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 13,
+                                            "offset": 12
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 26,
+                                    "offset": 39
+                                }
+                            },
+                            "data": {
+                                "hProperties": {
+                                    "id": "-welcome"
+                                },
+                                "id": "-welcome"
+                            },
+                            "processed": true
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "To ",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 1,
+                                            "offset": 14
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 4,
+                                            "offset": 17
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "emphasis",
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "your",
+                                            "position": {
+                                                "start": {
+                                                    "line": 3,
+                                                    "column": 5,
+                                                    "offset": 18
+                                                },
+                                                "end": {
+                                                    "line": 3,
+                                                    "column": 9,
+                                                    "offset": 22
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 4,
+                                            "offset": 17
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 10,
+                                            "offset": 23
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " digital Garden.",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 10,
+                                            "offset": 23
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 26,
+                                            "offset": 39
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 1,
+                                    "offset": 14
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 26,
+                                    "offset": 39
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 26,
+                    "offset": 39
+                }
+            }
+        }
+    ],
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 4,
+            "column": 1,
+            "offset": 40
+        }
+    }
+}
