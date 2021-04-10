@@ -18,7 +18,7 @@ jobs:
         run: |
           npm install -g @dotlit/dotlit
           mkdir build
-          dotlit generate -b "/" . -o ./build
+          dotlit generate -b "/dotlit-starter" . -o ./build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
