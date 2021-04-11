@@ -1,6 +1,6 @@
 # dotlit-starter
 
-[![Deploy](../../workflows/deploy.yml/badge.svg)](../../workflows/deploy.yml)
+[![Deploy](../../actions/workflows/deploy.yml/badge.svg)](../../actions/workflows/deploy.yml)
 
 An example starter repo to deploy your own digital garden to GitHub Pages
 
