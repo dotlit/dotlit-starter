@@ -7,7 +7,7 @@
         "backlinks": [],
         "exists": true
     },
-    "../../workflows/deploy.yml": {
+    "../../actions/workflows/deploy.yml": {
         "backlinks": [
             {
                 "url": "README.html",
