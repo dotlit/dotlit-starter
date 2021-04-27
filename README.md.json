@@ -117,7 +117,18 @@
                                         "isFragment": false,
                                         "isRelative": true,
                                         "canonical": "../../actions/workflows/deploy.yml",
-                                        "wikilink": false
+                                        "wikilink": false,
+                                        "hProperties": {
+                                            "wikilink": false,
+                                            "data": {
+                                                "base": "../../actions/workflows/deploy.yml",
+                                                "isAbsolute": false,
+                                                "isFragment": false,
+                                                "isRelative": true,
+                                                "canonical": "../../actions/workflows/deploy.yml",
+                                                "wikilink": false
+                                            }
+                                        }
                                     }
                                 }
                             ],
@@ -416,7 +427,18 @@
                                         "isFragment": false,
                                         "isRelative": false,
                                         "canonical": "https://dotlitdev.github.io/dotlit-starter",
-                                        "wikilink": false
+                                        "wikilink": false,
+                                        "hProperties": {
+                                            "wikilink": false,
+                                            "data": {
+                                                "base": "https://dotlitdev.github.io/dotlit-starter",
+                                                "isAbsolute": true,
+                                                "isFragment": false,
+                                                "isRelative": false,
+                                                "canonical": "https://dotlitdev.github.io/dotlit-starter",
+                                                "wikilink": false
+                                            }
+                                        }
                                     }
                                 }
                             ],

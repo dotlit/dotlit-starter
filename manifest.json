@@ -1,19 +1,34 @@
 {
-    "index.lit": {
-        "backlinks": [],
-        "exists": true
-    },
-    "README.md": {
-        "backlinks": [],
-        "exists": true
-    },
-    "../../actions/workflows/deploy.yml": {
-        "backlinks": [
-            {
-                "url": "README.html",
-                "title": "Title TBD (README.md)"
-            }
-        ],
-        "exists": false
-    }
+    "nodes": [
+        {
+            "id": "index.lit",
+            "backlinks": [],
+            "exists": true,
+            "title": "Title TBD (index.lit)"
+        },
+        {
+            "id": "README.md",
+            "backlinks": [],
+            "exists": true,
+            "title": "Title TBD (README.md)"
+        },
+        {
+            "id": "../../actions/workflows/deploy.yml",
+            "backlinks": [
+                {
+                    "id": "README.md",
+                    "url": "README.html",
+                    "title": "Title TBD (README.md)"
+                }
+            ],
+            "exists": false,
+            "type": "link"
+        }
+    ],
+    "links": [
+        {
+            "source": "README.md",
+            "target": "../../actions/workflows/deploy.yml"
+        }
+    ]
 }
