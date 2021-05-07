@@ -4,13 +4,13 @@
             "id": "index.lit",
             "backlinks": [],
             "exists": true,
-            "title": "Title TBD (index.lit)"
+            "title": "🌱 Welcome"
         },
         {
             "id": "README.md",
             "backlinks": [],
             "exists": true,
-            "title": "Title TBD (README.md)"
+            "title": "dotlit-starter"
         },
         {
             "id": "../../actions/workflows/deploy.yml",
@@ -18,7 +18,7 @@
                 {
                     "id": "README.md",
                     "url": "README.html",
-                    "title": "Title TBD (README.md)"
+                    "title": "dotlit-starter"
                 }
             ],
             "exists": false,
