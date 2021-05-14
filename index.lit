@@ -1,3 +1,24 @@
 # 🌱 Welcome
 
-To *your* digital Garden.
+To *your* `.lit` Digital Garden. Just start editing this page, all changes are stored locally, until/unless you add a [GitHub access token](https://github.com/settings/tokens), see `Help > GitHub Token` menu.
+
+
+```js > md
+return (async args => {
+
+  const confetti = await 
+  import('https://cdn.skypack.dev/canvas-confetti')
+
+  confetti.default({
+     origin: {y: 0},
+     spread: 55,
+     particleCount: 100,
+     ticks: 1000,
+  })
+  return "*Wait for it...* 🥳"
+})()
+```
+```>md !info attached=true updated=1620951357044
+*Run* the above `code` *Cell* for a **proper** welcome.
+```
+
