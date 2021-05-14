@@ -22,8 +22,8 @@
                         },
                         "end": {
                             "line": 3,
-                            "column": 26,
-                            "offset": 39
+                            "column": 209,
+                            "offset": 222
                         }
                     },
                     "data": {
@@ -39,9 +39,9 @@
                                     "offset": 0
                                 },
                                 "end": {
-                                    "line": 3,
-                                    "column": 26,
-                                    "offset": 39
+                                    "line": 23,
+                                    "column": 4,
+                                    "offset": 595
                                 }
                             }
                         }
@@ -76,8 +76,8 @@
                                 },
                                 "end": {
                                     "line": 3,
-                                    "column": 26,
-                                    "offset": 39
+                                    "column": 209,
+                                    "offset": 222
                                 }
                             },
                             "data": {
@@ -142,7 +142,7 @@
                                 },
                                 {
                                     "type": "text",
-                                    "value": " digital Garden.",
+                                    "value": " ",
                                     "position": {
                                         "start": {
                                             "line": 3,
@@ -151,8 +151,140 @@
                                         },
                                         "end": {
                                             "line": 3,
-                                            "column": 26,
-                                            "offset": 39
+                                            "column": 11,
+                                            "offset": 24
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "inlineCode",
+                                    "value": ".lit",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 11,
+                                            "offset": 24
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 17,
+                                            "offset": 30
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " Digital Garden. Just start editing this page, all changes are stored locally, until/unless you add a ",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 17,
+                                            "offset": 30
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 119,
+                                            "offset": 132
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/settings/tokens",
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "GitHub access token",
+                                            "position": {
+                                                "start": {
+                                                    "line": 3,
+                                                    "column": 120,
+                                                    "offset": 133
+                                                },
+                                                "end": {
+                                                    "line": 3,
+                                                    "column": 139,
+                                                    "offset": 152
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 119,
+                                            "offset": 132
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 176,
+                                            "offset": 189
+                                        }
+                                    },
+                                    "data": {
+                                        "isAbsolute": true,
+                                        "isFragment": false,
+                                        "isRelative": false,
+                                        "canonical": "https://github.com/settings/tokens",
+                                        "wikilink": false,
+                                        "hProperties": {
+                                            "wikilink": false,
+                                            "data": {
+                                                "base": "https://github.com/settings/tokens",
+                                                "isAbsolute": true,
+                                                "isFragment": false,
+                                                "isRelative": false,
+                                                "canonical": "https://github.com/settings/tokens",
+                                                "wikilink": false
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", see ",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 176,
+                                            "offset": 189
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 182,
+                                            "offset": 195
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "inlineCode",
+                                    "value": "Help > GitHub Token",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 182,
+                                            "offset": 195
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 203,
+                                            "offset": 216
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " menu.",
+                                    "position": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 203,
+                                            "offset": 216
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 209,
+                                            "offset": 222
                                         }
                                     }
                                 }
@@ -165,10 +297,327 @@
                                 },
                                 "end": {
                                     "line": 3,
-                                    "column": 26,
-                                    "offset": 39
+                                    "column": 209,
+                                    "offset": 222
                                 }
                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "cell",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 225
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 4,
+                            "offset": 595
+                        }
+                    },
+                    "data": {
+                        "hName": "cell",
+                        "hProperties": {
+                            "class": "cell"
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "code",
+                            "lang": "js",
+                            "meta": "> md",
+                            "value": "return (async args => {\n\n  const confetti = await \n  import('https://cdn.skypack.dev/canvas-confetti')\n\n  confetti.default({\n     origin: {y: 0},\n     spread: 55,\n     particleCount: 100,\n     ticks: 1000,\n  })\n  return \"*Wait for it...* 🥳\"\n})()",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 1,
+                                    "offset": 225
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 4,
+                                    "offset": 595
+                                }
+                            },
+                            "data": {
+                                "meta": {
+                                    "attrs": {},
+                                    "lang": "js",
+                                    "isOutput": false,
+                                    "output": "md",
+                                    "hasOutput": true,
+                                    "hasSource": false,
+                                    "raw": "js > md"
+                                },
+                                "hProperties": {
+                                    "className": "",
+                                    "meta": {
+                                        "attrs": {},
+                                        "lang": "js",
+                                        "isOutput": false,
+                                        "output": "md",
+                                        "hasOutput": true,
+                                        "hasSource": false,
+                                        "raw": "js > md"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "code",
+                            "lang": ">md",
+                            "meta": "!info attached=true updated=1620951357044",
+                            "value": "*Run* the above `code` *Cell* for a **proper** welcome.",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 1,
+                                    "offset": 487
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 4,
+                                    "offset": 595
+                                }
+                            },
+                            "data": {
+                                "meta": {
+                                    "attrs": {
+                                        "attached": "true",
+                                        "updated": "1620951357044"
+                                    },
+                                    "lang": "md",
+                                    "directives": [
+                                        "info"
+                                    ],
+                                    "attached": "true",
+                                    "updated": "1620951357044",
+                                    "isOutput": true,
+                                    "hasOutput": false,
+                                    "hasSource": false,
+                                    "raw": ">md !info attached=true updated=1620951357044"
+                                },
+                                "hProperties": {
+                                    "className": "",
+                                    "meta": {
+                                        "attrs": {
+                                            "attached": "true",
+                                            "updated": "1620951357044"
+                                        },
+                                        "lang": "md",
+                                        "directives": [
+                                            "info"
+                                        ],
+                                        "attached": "true",
+                                        "updated": "1620951357044",
+                                        "isOutput": true,
+                                        "hasOutput": false,
+                                        "hasSource": false,
+                                        "raw": ">md !info attached=true updated=1620951357044"
+                                    }
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "paragraph",
+                                    "children": [
+                                        {
+                                            "type": "emphasis",
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Run",
+                                                    "position": {
+                                                        "start": {
+                                                            "line": 1,
+                                                            "column": 2,
+                                                            "offset": 1
+                                                        },
+                                                        "end": {
+                                                            "line": 1,
+                                                            "column": 5,
+                                                            "offset": 4
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 1,
+                                                    "offset": 0
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 6,
+                                                    "offset": 5
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " the above ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 6,
+                                                    "offset": 5
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 17,
+                                                    "offset": 16
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "inlineCode",
+                                            "value": "code",
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 17,
+                                                    "offset": 16
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 23,
+                                                    "offset": 22
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 23,
+                                                    "offset": 22
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 24,
+                                                    "offset": 23
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "emphasis",
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Cell",
+                                                    "position": {
+                                                        "start": {
+                                                            "line": 1,
+                                                            "column": 25,
+                                                            "offset": 24
+                                                        },
+                                                        "end": {
+                                                            "line": 1,
+                                                            "column": 29,
+                                                            "offset": 28
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 24,
+                                                    "offset": 23
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 30,
+                                                    "offset": 29
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " for a ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 30,
+                                                    "offset": 29
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 37,
+                                                    "offset": 36
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "strong",
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "proper",
+                                                    "position": {
+                                                        "start": {
+                                                            "line": 1,
+                                                            "column": 39,
+                                                            "offset": 38
+                                                        },
+                                                        "end": {
+                                                            "line": 1,
+                                                            "column": 45,
+                                                            "offset": 44
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 37,
+                                                    "offset": 36
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 47,
+                                                    "offset": 46
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " welcome.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 47,
+                                                    "offset": 46
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 56,
+                                                    "offset": 55
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 1,
+                                            "offset": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 56,
+                                            "offset": 55
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -180,9 +629,9 @@
                     "offset": 0
                 },
                 "end": {
-                    "line": 3,
-                    "column": 26,
-                    "offset": 39
+                    "line": 23,
+                    "column": 4,
+                    "offset": 595
                 }
             }
         }
@@ -194,9 +643,9 @@
             "offset": 0
         },
         "end": {
-            "line": 4,
+            "line": 25,
             "column": 1,
-            "offset": 40
+            "offset": 597
         }
     }
 }
