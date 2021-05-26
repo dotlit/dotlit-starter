@@ -50,15 +50,6 @@ return (async (fn) => {
 })();
 
 ```
-```>md attached=true updated=1622068989465
-All set up.
-
-> `{ token: '••••••••••',
->   username: 'dotlitdev',
->   repository: 'dotlit-starter',
->   branch: 'main',
->   prefix: '' }`
-```
 
 ## Custom plugins
 
