@@ -1,7 +1,7 @@
 {
     "meta": {
-        "totalSourceFiles": 3,
-        "totalUsableSourceFiles": 3,
+        "totalSourceFiles": 2,
+        "totalUsableSourceFiles": 2,
         "failures": {}
     },
     "nodes": [
@@ -12,14 +12,6 @@
             "title": ".lit Settings",
             "links": 3,
             "size": 1727
-        },
-        {
-            "id": "index.lit",
-            "backlinks": [],
-            "exists": true,
-            "title": "🌱 Welcome",
-            "links": 1,
-            "size": 597
         },
         {
             "id": "README.md",
