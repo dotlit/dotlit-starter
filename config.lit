@@ -19,9 +19,9 @@ Set up a GitHub repository to save your updates to. *Requires a **GitHub Access 
 ```js #connect #github !collapse > md
 const settings = {
     username: "dotlitdev",
-    repository: "dotlit",
+    repository: "dotlit-starter",
     branch: "main",
-    prefix: "src",
+    prefix: "",
 };
 
 return (async (fn) => {
