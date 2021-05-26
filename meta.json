@@ -1,9 +1,9 @@
 {
-    "totalSourceFiles": 2,
-    "totalUsableSourceFiles": 2,
+    "totalSourceFiles": 3,
+    "totalUsableSourceFiles": 3,
     "failures": {},
     "failures2": {},
-    "litFiles": 2,
+    "litFiles": 3,
     "nonLitFiles": 0,
-    "wroteHtml": 2
+    "wroteHtml": 3
 }
