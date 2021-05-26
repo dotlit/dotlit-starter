@@ -1,0 +1,53 @@
+<html data-reactroot=""><head><title>.lit Settings</title><meta name="litsrc" value="config.lit"/><meta name="litroot" value="/dotlit-starter"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/><link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/railscasts.css"/><link rel="stylesheet" href="/dotlit-starter/style.css"/></head><body><div id="lit-app"><div id="lit-header"><menu class="horizontal open has-children"><li class="MenuTitle"><a href="/dotlit-starter">Home</a></li><li class="MenuItems"><menu class="has-children"><li class="MenuTitle">File</li></menu><menu class="has-children" disabled=""><li class="MenuTitle">Cell</li></menu><menu class="has-children" disabled=""><li class="MenuTitle">Section</li></menu><menu class="has-children"><li class="MenuTitle">Help</li></menu><menu class="has-children right"><li class="MenuTitle"><span class="led led-grey"></span></li></menu></li></menu><div class="lit-messages"></div></div><div id="content"><section depth="1" class="" startpos="1:1-0" endpos="9:21-307"><cell startpos="1:1-0" endpos="3:147-165"><div class="cell-content"><h1 id="lit-settings"><code>.lit</code> Settings</h1><p>This file is special in that it is parsed and any <code>!plugins</code> it contains are pre-populated for all other <code>.lit</code> documents in this <code>.lit</code> notebook.</p></div></cell><cell startpos="5:1-167" endpos="7:4-285" class="code output"><div class="cell-content"><codecell class="dir-info lang-md local output"><span class="meta"><span class="lang">md</span><span style="color:white;background-color:#03164a" class="directive dir-info">info</span></span><div class="md-block dir-info">
+<p>ℹ️ Move, copy or <em>transclude</em> any document specific <code>!plugin</code> here to have it apply to all documents.</p>
+</div></codecell></div></cell><section depth="2" class="" startpos="9:1-287" endpos="9:21-307"><cell startpos="9:1-287" endpos="9:21-307"><div class="cell-content"><h2 id="table-of-contents">Table of Contents</h2><ul>
+<li>
+<p><a href="#settings">Settings<span class="linkIcon">§</span></a></p>
+<ul>
+<li><a href="#github">GitHub<span class="linkIcon">§</span></a></li>
+</ul>
+</li>
+<li>
+<p><a href="#custom-plugins">Custom plugins<span class="linkIcon">§</span></a></p>
+</li>
+</ul></div></cell></section></section>
+<section depth="2" class="" startpos="11:1-309" endpos="58:4-1604"><cell startpos="11:1-309" endpos="13:142-464"><div class="cell-content"><h2 id="settings">Settings</h2><p>Not yet Implemented the below are mocks while we decide on the interface. Just another kind of <code>!plugin</code>? data exports could work the same...</p></div></cell><section depth="3" class="" startpos="15:1-466" endpos="58:4-1604"><cell startpos="15:1-466" endpos="17:90-568"><div class="cell-content"><h3 id="github">GitHub</h3><p>Set up a GitHub repository to save your updates to. <em>Requires a <strong>GitHub Access Token</strong></em>.</p></div></cell><cell startpos="19:1-570" endpos="58:4-1604" class="code"><div class="cell-content"><codecell class="dir-collapse tag-connect tag-github lang-js local collapsed"><span class="meta"><span class="lang">js</span><span style="color:black;background-color:#da5323" class="directive dir-collapse">collapse</span><span style="color:black;background-color:#38b478" class="tag">connect</span><span style="color:black;background-color:#b5c11b" class="tag">github</span><span class="output">&gt; md</span></span><pre><code class="js">const settings = {
+    username: &quot;dotlitdev&quot;,
+    repository: &quot;dotlit&quot;,
+    branch: &quot;main&quot;,
+    prefix: &quot;src&quot;,
+};
+
+return (async (fn) =&gt; {
+  if (typeof localStorage === &quot;undefined&quot;) return &quot;No localStorage available.&quot;;
+
+  const __key = &quot;ghSettings&quot;;
+  const display = fn =&gt; {
+      const redacted = Object.assign({token:&#x27;••••••••••&#x27;}, settings, {})
+      return (&quot;`&quot;+lit.utils.inspect(redacted)+&quot;`&quot;)
+             .split(&#x27;\n&#x27;)
+             .map(l=&gt;&#x27;&gt; &#x27;+l)
+             .join(&#x27;\n&#x27;)
+  }
+
+  const current = localStorage.getItem(__key);
+
+  if (current) {
+    let data = JSON.parse(current);
+    if (data &amp;&amp; data.token) return &quot;Already set up.\n\n&quot; + display();
+  }
+
+  const token = prompt(
+    `Enter a GitHub Access Token for:\n Repository: ${settings.username}/${settings.repository}`
+  );
+
+  if (token) {
+    localStorage.setItem(__key, JSON.stringify({ ...settings, token }));
+    return &quot;All set up.\n\n&quot; + display();
+  }
+
+  return &quot;No **token** provided. Not set up.\n\n&quot; + display();
+})();
+
+</code></pre></codecell></div></cell></section></section>
+<section depth="2" class="" startpos="60:1-1606" endpos="62:97-1721"><cell startpos="60:1-1606" endpos="62:97-1721"><div class="cell-content"><h2 id="custom-plugins">Custom plugins</h2><p>Add your own custom plugins here to have them enabled for all documents in this <code>.lit</code> notebook.</p></div></cell></section></div></div><div id="backlinks"><h4>Backlinks (0)</h4><ol></ol></div><script src="//cdn.jsdelivr.net/npm/eruda"></script><script>eruda.init();</script><script async="" src="/dotlit-starter/web.bundle.js"></script></body></html>

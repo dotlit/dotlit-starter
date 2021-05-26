@@ -1,16 +1,33 @@
 {
+    "meta": {
+        "totalSourceFiles": 3,
+        "totalUsableSourceFiles": 3,
+        "failures": {}
+    },
     "nodes": [
+        {
+            "id": "config.lit",
+            "backlinks": [],
+            "exists": true,
+            "title": ".lit Settings",
+            "links": 3,
+            "size": 1722
+        },
         {
             "id": "index.lit",
             "backlinks": [],
             "exists": true,
-            "title": "🌱 Welcome"
+            "title": "🌱 Welcome",
+            "links": 1,
+            "size": 597
         },
         {
             "id": "README.md",
             "backlinks": [],
             "exists": true,
-            "title": "dotlit-starter"
+            "title": "dotlit-starter",
+            "links": 2,
+            "size": 324
         },
         {
             "id": "../../actions/workflows/deploy.yml",
