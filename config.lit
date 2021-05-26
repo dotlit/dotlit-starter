@@ -1,20 +1,14 @@
-# `.lit` Settings
+# Config
 
-This file is special in that it is parsed and any `!plugins` it contains are pre-populated for all other `.lit` documents in this `.lit` notebook.
 
-```>md !info
-ℹ️ Move, copy or *transclude* any document specific `!plugin` here to have it apply to all documents.
-```
 
 ## Table of Contents
 
-## Settings 
-
-Not yet Implemented the below are mocks while we decide on the interface. Just another kind of `!plugin`? data exports could work the same...
+## Settings
 
 ### GitHub 
 
-Set up a GitHub repository to save your updates to. *Requires a **GitHub Access Token***.
+Set up a GitHub repository to save your updates to. Just run the *Cell* below. *Requires a [GitHub Access Token](https://github.com/settings/tokens)*.
 
 ```js #connect #github !collapse > md
 const settings = {
@@ -33,7 +27,7 @@ return (async (fn) => {
       return ("`"+lit.utils.inspect(redacted)+"`")
              .split('\n')
              .map(l=>'> '+l)
-             .join('\n')
+             .join('\n');
   }
 
   const current = localStorage.getItem(__key);
@@ -56,7 +50,18 @@ return (async (fn) => {
 })();
 
 ```
+```>md attached=true updated=1622068989465
+All set up.
+
+> `{ token: '••••••••••',
+>   username: 'dotlitdev',
+>   repository: 'dotlit-starter',
+>   branch: 'main',
+>   prefix: '' }`
+```
 
 ## Custom plugins
 
-Add your own custom plugins here to have them enabled for all documents in this `.lit` notebook.
+```>md !info
+ℹ️ Move, copy or *transclude* any document specific `!plugin` here to have it apply to all documents.
+```
