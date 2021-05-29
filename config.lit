@@ -34,7 +34,7 @@ return (async (fn) => {
   let token
   if (current) {
     let data = JSON.parse(current);
-    if (data && data.token) token = data.token
+    if (data && data.token && confirm("Continue using existing token?")) token = data.token
   }
 
   token = token || prompt(
