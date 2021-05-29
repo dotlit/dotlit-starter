@@ -6,7 +6,7 @@
     },
     "nodes": [
         {
-            "id": "config.lit",
+            "id": "/config.lit",
             "backlinks": [],
             "exists": true,
             "title": "Config",
@@ -14,7 +14,7 @@
             "size": 1640
         },
         {
-            "id": "index.lit",
+            "id": "/index.lit",
             "backlinks": [],
             "exists": true,
             "title": "🌱 Welcome",
@@ -22,7 +22,7 @@
             "size": 580
         },
         {
-            "id": "README.md",
+            "id": "/README.md",
             "backlinks": [],
             "exists": true,
             "title": "dotlit-starter",
@@ -30,11 +30,11 @@
             "size": 324
         },
         {
-            "id": "config.lit#github",
+            "id": "/config.lit#github",
             "backlinks": [
                 {
-                    "id": "index.lit",
-                    "url": "index.html",
+                    "id": "/index.lit",
+                    "url": "/index.html",
                     "title": "🌱 Welcome"
                 }
             ],
@@ -42,11 +42,11 @@
             "type": "link"
         },
         {
-            "id": "../../actions/workflows/deploy.yml",
+            "id": "/actions/workflows/deploy.yml",
             "backlinks": [
                 {
-                    "id": "README.md",
-                    "url": "README.html",
+                    "id": "/README.md",
+                    "url": "/README.html",
                     "title": "dotlit-starter"
                 }
             ],
@@ -56,12 +56,12 @@
     ],
     "links": [
         {
-            "source": "index.lit",
-            "target": "config.lit#github"
+            "source": "/index.lit",
+            "target": "/config.lit#github"
         },
         {
-            "source": "README.md",
-            "target": "../../actions/workflows/deploy.yml"
+            "source": "/README.md",
+            "target": "/actions/workflows/deploy.yml"
         }
     ]
 }
