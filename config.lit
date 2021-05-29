@@ -31,13 +31,13 @@ return (async (fn) => {
   }
 
   const current = localStorage.getItem(__key);
-
+  let token
   if (current) {
     let data = JSON.parse(current);
-    if (data && data.token) return "Already set up.\n\n" + display();
+    if (data && data.token) token = data.token
   }
 
-  const token = prompt(
+  token = token || prompt(
     `Enter a GitHub Access Token for:\n Repository: ${settings.username}/${settings.repository}`
   );
 
