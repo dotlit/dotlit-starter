@@ -8,7 +8,7 @@
 
 ### GitHub 
 
-Set up a GitHub repository to save your updates to. Just run the *Cell* below. *Requires a [GitHub Access Token](https://github.com/settings/tokens)*.
+Set up a GitHub repository to save your updates to. Just run the *Cell* below. *Requires a [GitHub Access Token](https://github.com/settings/tokens)*
 
 ```js #connect #github !collapse > md
 const settings = {
@@ -49,6 +49,15 @@ return (async (fn) => {
   return "No **token** provided. Not set up.\n\n" + display();
 })();
 
+```
+```>md attached=true updated=1622068989465
+All set up.
+
+> `{ token: '••••••••••',
+>   username: 'dotlitdev',
+>   repository: 'dotlit-starter',
+>   branch: 'main',
+>   prefix: '' }`
 ```
 
 ## Custom plugins
