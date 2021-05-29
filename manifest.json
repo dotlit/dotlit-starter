@@ -1,7 +1,7 @@
 {
     "meta": {
-        "totalSourceFiles": 3,
-        "totalUsableSourceFiles": 3,
+        "totalSourceFiles": 2,
+        "totalUsableSourceFiles": 2,
         "failures": {}
     },
     "nodes": [
@@ -14,32 +14,12 @@
             "size": 1640
         },
         {
-            "id": "/index.lit",
-            "backlinks": [],
-            "exists": true,
-            "title": "🌱 Welcome",
-            "links": 1,
-            "size": 580
-        },
-        {
             "id": "/README.md",
             "backlinks": [],
             "exists": true,
             "title": "dotlit-starter",
             "links": 2,
             "size": 324
-        },
-        {
-            "id": "/config.lit#github",
-            "backlinks": [
-                {
-                    "id": "/index.lit",
-                    "url": "/index.html",
-                    "title": "🌱 Welcome"
-                }
-            ],
-            "exists": false,
-            "type": "link"
         },
         {
             "id": "/actions/workflows/deploy.yml",
@@ -55,10 +35,6 @@
         }
     ],
     "links": [
-        {
-            "source": "/index.lit",
-            "target": "/config.lit#github"
-        },
         {
             "source": "/README.md",
             "target": "/actions/workflows/deploy.yml"
