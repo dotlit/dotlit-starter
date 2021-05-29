@@ -15,7 +15,7 @@ const settings = {
     username: "dotlitdev",
     repository: "dotlit-starter",
     branch: "main",
-    prefix: "",
+    prefix: "..",
 };
 
 return (async (fn) => {
@@ -50,14 +50,14 @@ return (async (fn) => {
 })();
 
 ```
-```>md attached=true updated=1622068989465
+```>md attached=true updated=1622289614762
 All set up.
 
 > `{ token: '••••••••••',
 >   username: 'dotlitdev',
 >   repository: 'dotlit-starter',
 >   branch: 'main',
->   prefix: '' }`
+>   prefix: '..' }`
 ```
 
 ## Custom plugins
