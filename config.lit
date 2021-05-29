@@ -63,5 +63,5 @@ All set up.
 ## Custom plugins
 
 ```>md !info
-ℹ️ Move, copy or *transclude* any document specific `!plugin` here to have it apply to all documents.
+ℹ️ Move, copy or *transclude* any document specific `!plugin` here to have it apply to all documents in this `.lit` notebook.
 ```
