@@ -6,16 +6,14 @@
 
 ## Settings
 
-### GitHub 
 
-Set up a GitHub repository to save your updates to. Just run the *Cell* below. *Requires a [GitHub Access Token](https://github.com/settings/tokens)*
 
 ```js #connect #github !collapse > md
 const settings = {
     username: "dotlitdev",
     repository: "dotlit-starter",
     branch: "main",
-    prefix: "..",
+    prefix: "",
 };
 
 return (async (fn) => {
@@ -50,14 +48,14 @@ return (async (fn) => {
 })();
 
 ```
-```>md attached=true updated=1622289614762
+```>md attached=true updated=1622292092907
 All set up.
 
 > `{ token: '••••••••••',
 >   username: 'dotlitdev',
 >   repository: 'dotlit-starter',
 >   branch: 'main',
->   prefix: '..' }`
+>   prefix: '' }`
 ```
 
 ## Custom plugins
