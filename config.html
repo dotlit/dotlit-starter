@@ -1,19 +1,12 @@
 <html data-reactroot=""><head><title>Config</title><meta name="litsrc" value="/config.lit"/><meta name="litroot" value="/dotlit-starter"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/><link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/railscasts.css"/><link rel="stylesheet" href="/dotlit-starter/style.css"/></head><body><div id="lit-app"><div id="lit-header"><menu class="horizontal open has-children"><li class="MenuTitle"><a href="/dotlit-starter">Home</a></li><li class="MenuItems"><menu class="has-children"><li class="MenuTitle">File</li></menu><menu class="has-children" disabled=""><li class="MenuTitle">Cell</li></menu><menu class="has-children" disabled=""><li class="MenuTitle">Section</li></menu><menu class="has-children"><li class="MenuTitle">Help</li></menu><menu class="has-children right"><li class="MenuTitle"><span class="led led-grey"></span></li></menu></li></menu><div class="lit-messages"></div></div><div id="content"><section depth="1" class="" startpos="1:1-0" endpos="5:21-32"><cell startpos="1:1-0" endpos="1:9-8"><div class="cell-content"><h1 id="config">Config</h1></div></cell><section depth="2" class="" startpos="5:1-12" endpos="5:21-32"><cell startpos="5:1-12" endpos="5:21-32"><div class="cell-content"><h2 id="table-of-contents">Table of Contents</h2><ul>
-<li>
-<p><a href="#settings">Settings<span class="linkIcon">§</span></a></p>
-<ul>
-<li><a href="#github">GitHub<span class="linkIcon">§</span></a></li>
-</ul>
-</li>
-<li>
-<p><a href="#custom-plugins">Custom plugins<span class="linkIcon">§</span></a></p>
-</li>
+<li><a href="#settings">Settings<span class="linkIcon">§</span></a></li>
+<li><a href="#custom-plugins">Custom plugins<span class="linkIcon">§</span></a></li>
 </ul></div></cell></section></section>
-<section depth="2" class="" startpos="7:1-34" endpos="61:4-1476"><cell startpos="7:1-34" endpos="7:12-45"><div class="cell-content"><h2 id="settings">Settings</h2></div></cell><section depth="3" class="" startpos="9:1-47" endpos="61:4-1476"><cell startpos="9:1-47" endpos="11:150-209"><div class="cell-content"><h3 id="github">GitHub</h3><p>Set up a GitHub repository to save your updates to. Just run the <em>Cell</em> below. <em>Requires a <a href="https://github.com/settings/tokens">GitHub Access Token<span class="linkIcon">↗</span></a></em></p></div></cell><cell startpos="13:1-211" endpos="61:4-1476" class="code"><div class="cell-content"><codecell class="dir-collapse tag-connect tag-github lang-js local collapsed"><span class="meta"><span class="lang">js</span><span style="color:black;background-color:#da5323" class="directive dir-collapse">collapse</span><span style="color:black;background-color:#38b478" class="tag">connect</span><span style="color:black;background-color:#b5c11b" class="tag">github</span><span class="output">&gt; md</span></span><pre><code class="js">const settings = {
+<section depth="2" class="" startpos="7:1-34" endpos="59:4-1310"><cell startpos="7:1-34" endpos="7:12-45"><div class="cell-content"><h2 id="settings">Settings</h2></div></cell><cell startpos="11:1-49" endpos="59:4-1310" class="code"><div class="cell-content"><codecell class="dir-collapse tag-connect tag-github lang-js local collapsed"><span class="meta"><span class="lang">js</span><span style="color:black;background-color:#da5323" class="directive dir-collapse">collapse</span><span style="color:black;background-color:#38b478" class="tag">connect</span><span style="color:black;background-color:#b5c11b" class="tag">github</span><span class="output">&gt; md</span></span><pre><code class="js">const settings = {
     username: &quot;dotlitdev&quot;,
     repository: &quot;dotlit-starter&quot;,
     branch: &quot;main&quot;,
-    prefix: &quot;..&quot;,
+    prefix: &quot;&quot;,
 };
 
 return (async (fn) =&gt; {
@@ -47,12 +40,12 @@ return (async (fn) =&gt; {
   return &quot;No **token** provided. Not set up.\n\n&quot; + display();
 })();
 
-</code></pre></codecell><codecell class="lang-md local output"><span class="meta"><span class="lang">md</span><span class="updatedAt">Updated <span class="Time relative">1.7h ago</span></span></span><div class="md-block">
+</code></pre></codecell><codecell class="lang-md local output"><span class="meta"><span class="lang">md</span><span class="updatedAt">Updated <span class="Time relative">9.5h ago</span></span></span><div class="md-block">
 <p>All set up.</p>
 <blockquote>
-<p><code>{ token: &#x27;••••••••••&#x27;,   username: &#x27;dotlitdev&#x27;,   repository: &#x27;dotlit-starter&#x27;,   branch: &#x27;main&#x27;,   prefix: &#x27;..&#x27; }</code></p>
+<p><code>{ token: &#x27;••••••••••&#x27;,   username: &#x27;dotlitdev&#x27;,   repository: &#x27;dotlit-starter&#x27;,   branch: &#x27;main&#x27;,   prefix: &#x27;&#x27; }</code></p>
 </blockquote>
-</div></codecell></div></cell></section></section>
-<section depth="2" class="" startpos="63:1-1478" endpos="67:4-1639"><cell startpos="63:1-1478" endpos="63:18-1495"><div class="cell-content"><h2 id="custom-plugins">Custom plugins</h2></div></cell><cell startpos="65:1-1497" endpos="67:4-1639" class="code output"><div class="cell-content"><codecell class="dir-info lang-md local output"><span class="meta"><span class="lang">md</span><span style="color:white;background-color:#03164a" class="directive dir-info">info</span></span><div class="md-block dir-info">
+</div></codecell></div></cell></section>
+<section depth="2" class="" startpos="61:1-1312" endpos="65:4-1473"><cell startpos="61:1-1312" endpos="61:18-1329"><div class="cell-content"><h2 id="custom-plugins">Custom plugins</h2></div></cell><cell startpos="63:1-1331" endpos="65:4-1473" class="code output"><div class="cell-content"><codecell class="dir-info lang-md local output"><span class="meta"><span class="lang">md</span><span style="color:white;background-color:#03164a" class="directive dir-info">info</span></span><div class="md-block dir-info">
 <p>ℹ️ Move, copy or <em>transclude</em> any document specific <code>!plugin</code> here to have it apply to all documents in this <code>.lit</code> notebook.</p>
 </div></codecell></div></cell></section></div></div><div id="backlinks"><h4>Backlinks (0)</h4><ol></ol></div><script src="//cdn.jsdelivr.net/npm/eruda"></script><script>eruda.init();</script><script async="" src="/dotlit-starter/web.bundle.js"></script></body></html>
