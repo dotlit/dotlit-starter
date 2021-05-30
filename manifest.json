@@ -7,7 +7,13 @@
     "nodes": [
         {
             "id": "/config.lit",
-            "backlinks": [],
+            "backlinks": [
+                {
+                    "id": "/index.lit",
+                    "url": "../../../../../index.html",
+                    "title": "🌱 Welcome"
+                }
+            ],
             "exists": true,
             "title": "Config",
             "links": 2,
@@ -30,23 +36,11 @@
             "size": 324
         },
         {
-            "id": "/config.lit#github",
-            "backlinks": [
-                {
-                    "id": "/index.lit",
-                    "url": "/index.html",
-                    "title": "🌱 Welcome"
-                }
-            ],
-            "exists": false,
-            "type": "link"
-        },
-        {
             "id": "/actions/workflows/deploy.yml",
             "backlinks": [
                 {
                     "id": "/README.md",
-                    "url": "/README.html",
+                    "url": "../../../../../README.html",
                     "title": "dotlit-starter"
                 }
             ],
@@ -57,7 +51,7 @@
     "links": [
         {
             "source": "/index.lit",
-            "target": "/config.lit#github"
+            "target": "/config.lit"
         },
         {
             "source": "/README.md",
