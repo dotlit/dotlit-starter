@@ -1,7 +1,11 @@
 {
     "totalSourceFiles": 3,
     "totalUsableSourceFiles": 3,
-    "failures": {},
+    "failures": {
+        "config.lit": [
+            "genBackLinks2: Cannot read property 'relative' of undefined"
+        ]
+    },
     "failures2": {},
     "litFiles": 3,
     "nonLitFiles": 65,

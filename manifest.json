@@ -2,7 +2,11 @@
     "meta": {
         "totalSourceFiles": 3,
         "totalUsableSourceFiles": 3,
-        "failures": {}
+        "failures": {
+            "config.lit": [
+                "genBackLinks2: Cannot read property 'relative' of undefined"
+            ]
+        }
     },
     "nodes": [
         {
@@ -50,6 +54,18 @@
             "url": "../../actions/workflows/deploy.yml",
             "exists": false,
             "type": "link"
+        },
+        {
+            "id": "https://dotlitdev.github.io/dotlit-starter",
+            "backlinks": [
+                {
+                    "id": "/README.md",
+                    "url": "../../../../../README.html",
+                    "title": "dotlit-starter"
+                }
+            ],
+            "url": "https://dotlitdev.github.io/dotlit-starter",
+            "type": "external"
         }
     ],
     "links": [
@@ -60,6 +76,10 @@
         {
             "source": "/README.md",
             "target": "/actions/workflows/deploy.yml"
+        },
+        {
+            "source": "/README.md",
+            "target": "https://dotlitdev.github.io/dotlit-starter"
         }
     ]
 }
