@@ -8,4 +8,4 @@ An example starter repo to deploy your own digital garden to GitHub Pages
 - Go to settings and enable GitHub Pages 
 - edit `index.lit`
 
-Example site: https://dotlitdev.github.io/dotlit-starter
+Example site: https://dotlit.github.io/dotlit-starter

@@ -40,7 +40,7 @@
             "exists": true,
             "title": "dotlit-starter",
             "links": 2,
-            "size": 324
+            "size": 321
         },
         {
             "id": "/actions/workflows/deploy.yml",
@@ -56,7 +56,7 @@
             "type": "link"
         },
         {
-            "id": "https://dotlitdev.github.io/dotlit-starter",
+            "id": "https://dotlit.github.io/dotlit-starter",
             "backlinks": [
                 {
                     "id": "/README.md",
@@ -64,7 +64,7 @@
                     "title": "dotlit-starter"
                 }
             ],
-            "url": "https://dotlitdev.github.io/dotlit-starter",
+            "url": "https://dotlit.github.io/dotlit-starter",
             "type": "external"
         }
     ],
@@ -79,7 +79,7 @@
         },
         {
             "source": "/README.md",
-            "target": "https://dotlitdev.github.io/dotlit-starter"
+            "target": "https://dotlit.github.io/dotlit-starter"
         }
     ]
 }
